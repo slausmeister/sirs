@@ -1,0 +1,8 @@
+*
+!.gitignore
+!sirs.cpp
+!si.cpp
+!timeplot.py
+!trajectory.py
+!si_timeplot.py
+!README

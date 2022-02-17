@@ -1,0 +1,5 @@
+A visualisation of SIRS and SI 2-compartment models for diseases and STIs respectively. The Python scripts output pgf code, that can be integrated into LaTex documents. The Python scripts call C++ Programms to ensure quick evaluations. They use the Fehlberg78 method, and are thus highly accurate. The C++ code uses the boost library, and must be compiled first.
+
+### Installation
+1. Install the Boost library for C++
+2. Compile sirs.cpp and si.cpp with the specified path to the boost library (for example g++ -I /path/to/boost/include sirs.cpp -std=c++11 -o sirs.out). The compiled Programms must be named si.out and sirs.out and must be located in the same directory as the Python scripts.
